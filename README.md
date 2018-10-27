@@ -23,22 +23,6 @@ http://mvp.storichain.io/
 3. Hackathon Demo Run Video
 https://youtu.be/UfY1vwLad3k
 
-4. The project introduction landing page is
-http://storichain.io
-
-5. PR Video
-https://youtu.be/nxZj150vJec
-
-
-# 스토리체인 프로젝트 홈페이지 
-storichain.io
-
-# 팀멤버
-- 16년 간 다수의 앱/웹 개발 경험팀 +  영화<말아톤> 정윤철감독, 한국SF협회장 박상준 등 장르 작가가 주축
-
-# 어드바이저
-- SK TELECOM (전)CTO 이명성박사, (현)동국대학교 블록체인연구센터 박성준박사, 영화 <살인의 추억> 제작자 노종윤 대표 
-
 
 # 핵심가치 정의
 
@@ -50,9 +34,6 @@ storichain.io
 
 -  많은 프로덕션, 플랫폼사들이 스토리체인 프로토콜인 storiOS 스토리오에스를 사용 할 때, 토큰의 회전율이 올라가는 구조
 -  많은 창작자, 독자, PD 들이 스토리체인 dApp 을 사용 하며 아이템 소진, 스토리성장 그래프를 만들 때 생태계의 GDP가 올라 가는 구조
-
-# 창업 멤버들의 최초 MOTIVATION : 
-스토리 산업에서 미들맨 (프로덕션, 2차 제작물 유통업자) 들의 초과수익을 스토리 창작에 기여한 참여자들에게 수익 배분 하기 
 
 
 # 토큰 이코노미 특징 
@@ -121,6 +102,19 @@ http://www.ajunews.com/view/20180308095431077
 http://www.news2day.co.kr/100238
 - 이뉴스투데이
 http://www.enewstoday.co.kr/news/articleView.html?idxno=1165607
+
+
+# PR Video
+https://youtu.be/nxZj150vJec
+
+# 스토리체인 프로젝트 홈페이지 
+storichain.io
+
+# 팀멤버
+- 16년 간 다수의 앱/웹 개발 경험팀 +  영화<말아톤> 정윤철감독, 한국SF협회장 박상준 등 장르 작가가 주축
+
+# 어드바이저
+- SK TELECOM (전)CTO 이명성박사, (현)동국대학교 블록체인연구센터 박성준박사, 영화 <살인의 추억> 제작자 노종윤 대표 
 
 
 --------------- 우리 팀의 자문 자답 ---------------
