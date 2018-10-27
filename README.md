@@ -1,3 +1,6 @@
+# 프로젝트 설명 
+이야기 산업을 위한 스토리 창작 및 비대면 신뢰 거래 계약 위한 DApp 및 그 프로토콜
+
 # mvp_dora 안내 사항
 
 The storichain.io is story creation & trade protocol project. 
@@ -12,10 +15,6 @@ The project introduction landing page is http://storichain.io
 본 최소작동 시연 소스는 <도라핵스 2018 Seoul> 을 위해 작성 되었습니다. 
 아래 주소를 통해 회원가입, 로그인 하여 창작과 스토리에 베스팅 하는 일부 기능을 시연 해 보실 수 있습니다. 
 
-
-# 영화, 드라마 등
-기승전결을 다루는 이야기 산업을 위한 
-스토리 창작, 거래를 위한 DApp 및 그 프로토콜
 
 # 스토리체인 프로젝트 홈페이지 
 storichain.io
