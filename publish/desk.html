@@ -1,0 +1,256 @@
+<html lang="ko" class=" ">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="description" content="Storichain"/>
+    <link rel="apple-touch-icon-precomposed" href="/images/sc120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/images/sc180.png" />
+    <title>Storichain</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/css/scn.css">
+    <link rel="stylesheet" type="text/css" href="/css/animate.min.css">
+    <script src="/js/lib/jquery.js"></script>
+    <script src="/js/lib/common.js"></script>
+</head>
+<body class="mbd">
+<div class="header mhd">
+    <div class="mhd_lg">
+        <div class="hd_wrap">
+            <h1 class="logo"><a href="#"><img src="/images/logo_txt.png" alt="storichain" /></a></h1>
+            <button type="button" class="btn btn_memu"><span class="bar bar_eq0"></span><span class="bar bar_eq1"></span><span class="bar bar_eq2"></span></button>
+            <button type="button" class="btn btn_info"><span class="blind">information</span></button>
+        </div>
+    </div>
+    <div class="hnav_hd">
+        <div class="nav_wrap">
+            <ul class="hnav">
+                <li class="m1"><a href="#"><strong>Discover</strong></a></li>
+                <li class="m2"><a href="#"><strong>Feed</strong></a></li>
+                <li class="m3 selected"><a href="#"><strong>Desk</strong></a></li>
+                <li class="m4"><a href="#"><strong>Cowork</strong></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="aside">
+    <div class="aside_h">
+        <h1 class="logo"><img src="/images/logo_txt.png" alt="storichain" /></h1>
+        <button type="button" class="btn btn_close_aside"><span class="blind">메뉴 닫기</span></button>
+    </div>
+    <!--
+
+    <div class="logout_ct">
+        <p class="sc_tit">Story Asset Trading<br /> for Creators</p>
+        <ul class="login_btn_area">
+           <li><a href="#" class="btn_r btn_m btn_cw" id="btn_login">Log In</a></li>
+           <li><a href="#" class="btn_r btn_m btn_cb" id="btn_signin">Sign Up</a></li>
+        </ul>
+        <div class="desc">
+            <p>Now, you can be a storyteller sell your stories, co-write screenplay, cartoon stories.</p>
+            <p>If you'd like to buy and sell story asset, change user role to StoryProducer. Then you can trade story asset, fund raise with the stories you supported.</p>
+            <p>If you are just a reader, you can read stories and click reaction.Now, you can be a storyteller
+            sell your stories, co-write screenplay, cartoon stories.</p>
+        </div>
+    </div>
+
+	-->
+
+
+    <div class="login_ct">
+        <div class="user_info">
+            <div class="user_pf">
+                <div class="user_img"><img src="/images/del/u.png" alt=""></div>
+                <div class="user_id">
+                    <div class="user_email">leejunes@storichain.com</div>
+                    <div class="user_wid">@my_writter_id</div>
+                </div>
+            </div>
+            <div class="user_follow">
+                <span class="ufl"><strong>188</strong> following</span> <span class="ufr"><strong>2922</strong> follower</span>
+            </div>
+            <div class="user_pf_lk">
+                <a href="#" class="pf_lk">Profile</a>
+            </div>
+        </div>
+        <ul class="mn mn1">
+            <li class=""><a href="#">Open Stories</a></li>
+            <li class=""><a href="#">Pro Stories</a></li>
+            <li class=""><a href="#">Contesting Stories</a></li>
+            <li class=""><a href="#">Trading Stories</a></li>
+            <li class=""><a href="#">Funding Stories</a></li>
+        </ul>
+        <ul class="mn mn2">
+            <li class="mn21"><a href="#">팔로우 및 작가 추천</a></li>
+            <li class="mn22"><a href="#">광고 관리</a></li>
+            <li class="mn3"><a href="#">지갑</a></li>
+            <li class="mn24"><a href="#">지인에게 추천 리워드 받기</a></li>
+            <li class="mn25"><a href="#">설정 및 계정 정보</a></li>
+            <li class="mn26"><a href="#">문의 하기</a></li>
+            <li class="mn27"><a href="#">로그아웃</a></li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p class="copy">copyright &copy; 2018 STORICHAIN <br /> ALL RIGHTS RESERVED</p>
+        <ul class="cp_lk">
+            <li><a href="#">Private policy</a></li>
+            <li><a href="#">Terms of Platform</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+	<div class="mtit">
+		<div class="ct_wrap">
+		</div>
+	</div>
+	<div class="category">
+		<div class="ct_wrap">
+			<ul class="cat_lst">
+				<li><a href="#">나의작성모두</a></li>
+				<li><a href="#">비공개</a></li>
+				<li><a href="#" class="selected">시리즈</a></li>
+				<li><a href="#">피드공개</a></li>
+				<li><a href="#">전체공개</a></li>
+				<li><a href="#">링크공개</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="content">
+		<div class="ct_wrap">
+			<ul class="content_lst">
+				<li>
+					<div class="ct_thum">
+					</div>
+					<div class="ct_info">
+						<div class="ct_info_wrap">
+							<h2><a href="#">방자는 18세 2화</a></h2>
+							<div class="opr"><a href="#" class="btn_opr">공개범위 : <strong>전체</strong></a></div>
+							<ul class="stats_lst">
+                                <li class="grph"><span>1000</span></li>
+                                <li class="cutin"><span>372</span></li>
+                                <li class="star"><span>2.5</span></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="ct_thum">
+						<a href="#"><img src="/images/del/u2.png" alt="" class="user_thum_img" /></a>
+					</div>
+					<div class="ct_info">
+						<div class="ct_info_wrap">
+							<h2><a href="#">방자는 18세 2화 <img src="/images/ic_series_2.png" width="15" alt="시리즈"></a></h2>
+							<div class="opr"><a href="#" class="btn_opr">공개범위 : <strong>전체</strong></a></div>
+							<ul class="stats_lst">
+                                <li class="grph"><span>1000</span></li>
+                                <li class="cutin"><span>372</span></li>
+                                <li class="star"><span>2.5</span></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="ct_thum">
+						<a href="#"><img src="/images/del/u2.png" alt="" class="user_thum_img" /></a>
+					</div>
+					<div class="ct_info">
+						<div class="ct_info_wrap">
+							<h2><a href="#">방자는 18세 2화</a></h2>
+							<div class="opr"><a href="#" class="btn_opr">공개범위 : <strong>전체</strong></a></div>
+							<ul class="stats_lst">
+                                <li class="grph"><span>1000</span></li>
+                                <li class="cutin"><span>372</span></li>
+                                <li class="star"><span>2.5</span></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="ct_thum">
+					</div>
+					<div class="ct_info">
+						<div class="ct_info_wrap">
+							<h2><a href="#">방자는 18세 2화</a></h2>
+							<div class="opr"><a href="#" class="btn_opr">공개범위 : <strong>전체</strong></a></div>
+							<ul class="stats_lst">
+                                <li class="grph"><span>1000</span></li>
+                                <li class="cutin"><span>372</span></li>
+                                <li class="star"><span>2.5</span></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="ct_thum">
+						<a href="#"><img src="/images/del/u2.png" alt="" class="user_thum_img" /></a>
+					</div>
+					<div class="ct_info">
+						<div class="ct_info_wrap">
+							<h2><a href="#">방자는 18세 2화 <img src="/images/ic_series_2.png" width="15" alt="시리즈"></a></h2>
+							<div class="opr"><a href="#" class="btn_opr">공개범위 : <strong>전체</strong></a></div>
+							<ul class="stats_lst">
+                                <li class="grph"><span>1000</span></li>
+                                <li class="cutin"><span>372</span></li>
+                                <li class="star"><span>2.5</span></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="ct_thum">
+						<a href="#"><img src="/images/del/u2.png" alt="" class="user_thum_img" /></a>
+					</div>
+					<div class="ct_info">
+						<div class="ct_info_wrap">
+							<h2><a href="#">방자는 18세 2화</a></h2>
+							<div class="opr"><a href="#" class="btn_opr">공개범위 : <strong>전체</strong></a></div>
+							<ul class="stats_lst">
+                                <li class="grph"><span>1000</span></li>
+                                <li class="cutin"><span>372</span></li>
+                                <li class="star"><span>2.5</span></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="fbtn">
+				<button type="button" class="btn btn_more">더보기</button>
+			</div>
+		</div>
+	</div>
+
+    <div class="fx_btn ct_lk">
+        <ul class="drt_btn">
+            <li><a href="#" class="btn_top"><span>top</span></a></li>
+            <li><a href="#" class="btn_back"><span>back</span></a></li>
+            <li><a href="#" class="btn_down"><span>down</span></a></li>
+        </ul>
+        <ul class="rd_btn">
+            <li><a href="#" class="btn_lk_srs"><span class="blind">시리즈만들기</span></a></li>
+            <li><a href="#" class="btn_lk_wrt"><span class="blind">작성하기</span></a></li>
+        </ul>
+    </div>
+
+</div> 
+
+<div class="footer">
+	<p class="copy">copyright &copy; 2018 STORICHAIN ALL RIGHTS RESERVED</p>
+	<ul class="cp_lk">
+		<li><a href="#">Private policy</a></li>
+		<li><a href="#">Terms of Platform</a></li>
+		<li><a href="#">Advertise</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+</div>
+<!-- 팝업 배경 화면 -->
+<div class="black_scrn"></div>
+</body>
+</html>

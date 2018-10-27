@@ -1,0 +1,26 @@
+# Messages for Korean
+
+# 회원 가입
+need.logIn=로그인 후 사용하실 수 있는 기능입니다.
+registered.no.userCode=회원 가입 확인을 위한 사용자 정보가 전달되지 않았습니다. 
+registered.no.uuid=회원 가입 확인을 위한 사용자 정보가 전달되지 않았습니다.
+registered.no.found=클릭하신 회원 가입 인증 URL은 이미 만료되었습니다.\\n\\n가장 나중에 발송된 메일의 URL을 클릭해 주십시오.
+newPassword.no.userCode=새 비밀번호 등록을 위한 사용자 정보가 전달되지 않았습니다. 
+newPassword.no.uuid=새 비밀번호 등록을 위한 사용자 정보가 전달되지 않았습니다.
+newPassword.no.found=클릭하신 새 비밀번호 등록 URL은 이미 만료되었습니다.\\n\\n가장 나중에 발송된 메일의 URL을 클릭해 주십시오.
+
+# 바이어 정보
+buyer.no.buyerId=조회하려는 바이어 코드가 전달되지 않았습니다.
+
+# 쇼핑
+shopping.fail.addToCart=장바구니에 상품을 추가하는 데 실패했습니다.
+shopping.fail.deleteFromCart=장바구니에서 상품을 삭제하는 데 실패했습니다.
+shopping.fail.addToWishList=Wish list에 상품을 추가하는 데 실패했습니다.
+shopping.wish.duplicated=이미 Wish 리스트에 등록된 상품입니다.
+shopping.wish.noexists=Wish 리스트에 등록되지 않은 상품입니다.
+shopping.fail.deleteFromWishList=Wish list에서 상품을 삭제하는 데 실패했습니다.
+
+# 상품
+product.no.parameter=조회하시려는 상품 정보가 전달되지 않았습니다.
+product.no.exist=조회하시려는 상품은 현재 판매 중인 상품이 아닙니다.
+

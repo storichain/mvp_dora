@@ -1,0 +1,87 @@
+<html lang="ko" class=" ">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="description" content="Storichain"/>
+<link rel="apple-touch-icon-precomposed" href="/images/sc120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/images/sc180.png" />
+<title>Storichain</title>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/css/scn.css">
+<link rel="stylesheet" type="text/css" href="/css/animate.min.css">
+<script src="/js/lib/jquery.js"></script>
+</head>
+<body class="sbd">
+<div class="header shd">
+	<div class="mhd_lg">
+		<div class="hd_wrap">
+			<h1 class="ptit"><a href="#">Profile</a></h1>
+			<a href="#" class="btn btn_back_w"><span class="blind">뒤로가기</span></a>
+			<a href="#" class="btn btn_go_home"><span class="blind">홈으로 이동</span></a>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="content">
+		<div class="ct_wrap">
+			<form action="">
+				<fieldset>
+					<div class="form_wrap">
+						<div class="profile_img_area">
+							<div class="pf_img">
+								<div class="pf_img_r"><img src="/images/del/u.png" alt="" /></div>
+								<button type="button" class="btn btn_img_reg"><span class="blind">사진등록</span></button>
+								<!-- 삭제버튼. 아니면 등록버튼을 눌렀을때 기본이미지로 갈것인지 사진등록을 할것인지를 레이어로 넣어서 선택하게 하는건 어떨까요??
+									<button type="button" class="btn btn_img_del"><span class="blind">사진삭제</span></button>
+								-->
+							</div>
+						</div>
+						<div class="form_box">
+							<h3 class="form_tit">필명</h3>
+							<div class="inp_box"><input type="text" name="" id="wname" class="inpt" placeholder="본명" /><label for="wname" class="lblt">필명</label></div>
+							<p class="error_msg">error_msg</p>
+						</div>
+						<div class="form_box">
+							<h3 class="form_tit">자기소개</h3>
+							<div class="inp_box inp_tbox"><textarea name="" id="introduce" class="ftxt" cols="30" rows="10" placeholder="자기소개 입력"></textarea><label for="introduce" class="lblt">자기소개</label></div>
+						</div>
+						<div class="form_box">
+							<h3 class="form_tit">관심 스토리 분야</h3>
+							<div class="inp_box"><input type="text" name="" id="str_cate" class="inpt" placeholder="쉼표로 구분해서 입력 해 주세요" /><label for="str_cate" class="lblt">관심 스토리 분야</label></div>
+							<p class="error_msg">error_msg</p>
+						</div>
+						<p class="sct">아래 소셜 정보를 입력하면 광고주로 부터 글제안, 배너제안이 올 확률이 더 커요</p>
+
+						<ul class="sc_link"><!-- 버튼 클릭시 각 버튼 clsss를 연결되었을 경우 btn_cb로, 안되어있을 경우 btn_cw 로 -->
+							<li><span class="sc_name">인스타그램</span><button type="button" class="btn btn_s btn_cw">연결</button></li>
+							<li><span class="sc_name">네이버블로그</span><button type="button" class="btn btn_s btn_cw">연결</button></li>
+							<li><span class="sc_name">페이스북</span><button type="button" class="btn btn_s btn_cw">연결</button></li>
+						</ul>
+
+						<ul class="form_btn form_btn2">
+							<li><span><button class="btn_r btn_m btn_cw">취소</button></span></li>
+							<li><span><button class="btn_r btn_m btn_cp">저장</button></span></li>
+						</ul>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<p class="copy">copyright &copy; 2018 STORICHAIN ALL RIGHTS RESERVED</p>
+	<ul class="cp_lk">
+		<li><a href="#">Private policy</a></li>
+		<li><a href="#">Terms of Platform</a></li>
+		<li><a href="#">Advertise</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+</div>
+
+</body>
+</html>

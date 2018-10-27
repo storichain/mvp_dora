@@ -1,0 +1,101 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+
+<!-- 여기서부터 메일로 보냅니다. -->
+<table cellpadding="0" cellspacing="0" border="0" width="800" style="width:800px;border:1px solid #edecea;background:#fff; font-family:'맑은고딕','Malgun Gothic','나눔고딕',NanumGothic,'돋움',Dotum,'굴림',Gulim,Helvetica,sans-serif;font-size:12px;color:#272420;table-layout:fixed">
+	<tbody>
+		<tr>
+			<td style="padding-left:18px;height:60px;background:#342f2c;text-align:left;"><a href="#"><img src="${WEBSITE_URL}/Images/mail/logo.png" alt="storichain" border="0"></a></td>
+		</tr>
+		<tr>
+			<td style="padding: 50px 0 40px;text-align:center;font-size:12px;line-height:18px;border-bottom:1px solid #d6d3ca;">
+				<div style="margin-bottom:25px;font-size:26px;line-height:32px;font-weight:500;color:#555;"><strong style="color:#111; font-weight:800;">${nick_name}</strong> 님의 주문은 [${order_status_type_name}] 상태 입니다.</div>
+                <p style="margin:0; font-size:13px;">Storichain을 이용해 주셔서 진심으로 감사합니다.</p>
+                <p style="margin:0; font-size:13px;">자세한 구매내역 및 기타정보는 <a href="${DOMAIN_URL}/shop/MyOrderList" style="color:#5970bb;">마이페이지>구매내역</a>에서 확인가능합니다.</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding:50px 30px 10px 30px;">
+				<table cellpadding="0" cellspacing="0" border="0" width="740" style="color:#272420;table-layout:fixed">
+					<colgroup>
+						<col width="360">
+						<col width="360">
+					</colgroup>
+					<tbody>
+						<tr>
+							<td><strong style="font-size:16px">상세내역</strong></td>
+							<td style="text-align:right">${order_date} 구매<br>(주문상품번호: <span style="color:#5970bb;">${order_detail_id}<span>)</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding:0 30px 10px 30px;">
+				<table width="740" cellspacing="0" cellpadding="0" style="table-layout:fixed;border-top:2px solid #555;border-bottom:1px solid #d2d2d2;margin-top:6px;">
+					<colgroup>
+					<col width="114">
+					<col width="*">
+					<col width="132">
+					<col width="107">
+					</colgroup>
+					<thead style="background-color: #f7f7f7;">
+						<tr style="color:#33322e;">
+						<th scope="col" colspan="2" style="height:36px;line-height:36px;text-align:center;border-bottom:1px solid #d2d2d2;"><div>상품명</div></th>
+						<th scope="col" style="height:36px;line-height:36px;text-align:center;border-left:1px solid #d6d3cb;border-bottom:1px solid #d2d2d2;">가격</th>
+						<th scope="col" style="height:36px;line-height:36px;text-align:center;border-left:1px solid #d6d3cb;border-bottom:1px solid #d2d2d2;">배송비</th>
+						</tr>
+					</thead>
+					<tbody>
+						${order_product}
+						<tr>
+							<td colspan="2" style="padding:30px 0 30px 0;text-align:right;color:#272420;font-size:15px;line-height:28px;"><strong>주문결제금액</strong></td>
+							<td colspan="2" style="padding:30px 0 30px 0;text-align:right;color:#ea5504;font-size:16px;line-height:28px;"><strong style="font-size:17px;">${total_price}원</strong></td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding:45px 0 40px;text-align:center"><a href="${WEBSITE_URL}/shop/MyOrderList" style="background-color:#333; padding:12px 15px; color:#fff; font-size:15px;border-radius:3px;text-decoration:none;">주문내역 확인하기</a></td>
+		</tr>
+		<tr>
+			<td style="padding:25px 40px 25px 40px;border-top:1px solid #d6d3ca; background-color:#f3f3f3;">
+				<table cellpadding="0" cellspacing="0" border="0" width="720" style="font-size:11px;color:#807d79;table-layout:fixed">
+					<colgroup>
+						<col width="590">
+						<col width="130">
+					</colgroup>
+					<tbody>
+						<tr>
+							<td colspan="2" style="padding-bottom:8px;"><a href="${DOMAIN_URL}pages/"><img src="${WEBSITE_URL}/Images/mail/footer.png" alt="storichain" border="0"></a></td>
+						</tr>
+						<tr>
+							<td style="line-height:15px;">
+                                <!--<p style="margin:0"><p class="copy">copyright &copy; 2018 STORICHAIN ALL RIGHTS RESERVED</p></p>
+                                <p style="margin:0">사업자등록번호 : <a href="#" style="color:#807d79;font-weight:700;text-decoration:none;">309-85-02353</a> / 통신판매업 신고 : 제 2013-서울강남-01068호</p>
+                                <p style="margin:0">문의전화 : <a href="tel:02-3015-0555" style="color:#807d79;font-weight:700;text-decoration:none;">02-3015-0555</a> / 이메일 : <a href="beautytalk_@naver.com" style="color:#333;text-decoration:none;">beautytalk_@naver.com</a></p>
+                                <p style="margin:0">COPYRIGHT © 2017 JTBC PLUS Corp. M&B Branch. All rights reserved.</p>-->
+							</td>
+							<td style="vertical-align:top;text-align:left;">
+								<div>
+									<a href="#"><img src="${WEBSITE_URL}/Images/mail/sns_ico_facebook.png" alt="Facebook" border="0" /></a>
+									<a href="#"><img src="${WEBSITE_URL}/Images/mail/sns_ico_twitter.png" alt="twitter" border="0" /></a>
+									<a href="#"><img src="${WEBSITE_URL}/Images/mail/sns_ico_kakaotalk.png" alt="kakaotalk" border="0" /></a>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-- 여기까지 메일로 보냅니다. -->
+
+</body>
+</html>

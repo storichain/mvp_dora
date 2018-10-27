@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.Master.cs" Inherits="Storichain.WebSite.User.Viewer.MasterPage.Main" EnableViewState="false" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server" enableviewstate="false">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <title>스토리체인</title>
+    
+    <link rel="stylesheet" type="text/css" href="/css/scn.css" />
+    <link rel="stylesheet" type="text/css" href="/css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/swiper.min.css" />
+    
+    <script src="/js/lib/jquery.js"></script>
+    <script src="/js/lib/common.js"></script>
+    <script src="/js/lib/swiper.min.js"></script>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server" EnableViewState="false">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" EnableViewState="false">
+    </asp:ContentPlaceHolder>
+</body>
+</html>
+

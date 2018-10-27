@@ -1,0 +1,136 @@
+<html lang="ko" class=" ">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="description" content="Storichain"/>
+<link rel="apple-touch-icon-precomposed" href="/images/sc120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/images/sc180.png" />
+<title>Storichain</title>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/css/scn.css">
+<link rel="stylesheet" type="text/css" href="/css/animate.min.css">
+<script src="/js/lib/jquery.js"></script>
+</head>
+<body class="tbd">
+<div class="header shd">
+	<div class="mhd_lg">
+		<div class="hd_wrap">
+			<h1 class="ptit"><a href="#">Stori Ingredients</a></h1>
+			<a href="#" class="btn btn_back_w"><span class="blind">뒤로가기</span></a>
+		</div>
+	</div>
+	<div class="h_tab">
+		<div class="tab_wrap">
+			<ul class="htab">
+				<li class="selected"><a href="#">Cast</a></li>
+				<li><a href="#">Emoji</a></li>
+				<li><a href="#">Image</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="content">
+		<div class="ct_wrap">
+			<form action="">
+				<div class="char_reg">
+					<div class="char_reg_img_area">
+						<div class="char_img">
+							<div class="char_img_r"><img src="/images/del/u.png" alt="" /></div>
+							<button type="button" class="btn btn_img_reg"><span class="blind">사진등록</span></button>
+							<!-- 삭제버튼. 아니면 등록버튼을 눌렀을때 기본이미지로 갈것인지 사진등록을 할것인지를 레이어로 넣어서 선택하게 하는건 어떨까요??
+								<button type="button" class="btn btn_img_del"><span class="blind">사진삭제</span></button>
+							-->
+						</div>
+						<div class="form_box">
+							<div class="inp_box"><input type="text" name="" id="cname" class="inpt" placeholder="type character's name" /><label for="wname" class="lblt">type character's name</label></div>
+							<p class="error_msg">error_msg</p>
+						</div>
+					</div>
+					<ul class="form_btn form_btn1">
+						<li><span><button class="btn_r btn_l btn_cb">Register character</button></span></li>
+					</ul>
+				</div>
+				<h2 class="ct_tit">등록된 캐릭터 자원 리스트</h2>
+				<div class="ctable">
+					<table class="c_table">
+						<caption><span class="blind">등록된 캐릭터 자원 리스트</span></caption>
+						<colgroup>
+						<col width="39%">
+						<col width="37%">
+						<col width="24%">
+						</colgroup>
+						<thead>
+							<tr>
+								<th scope="col">character name</th>
+								<th scope="col">place to show</th>
+								<th scope="col">casting</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="tal">
+									<div class="character_name">
+										<span class="cimg"><img src="/images/del/u.png" alt="" /></span>
+										<strong class="cname">David</strong>
+									</div>
+								</td>
+								<td>
+									<div class="pts">
+										<span class="dfrdo_bx"><input type="radio" id="pts1_l" name="pts1" value="" class="dfrdo" checked="checked"><label for="pts1_l" class="dfrdo_lb">left</label></span>
+										<span class="dfrdo_bx"><input type="radio" id="pts1_r" name="pts1" value="" class="dfrdo"><label for="pts1_r" class="dfrdo_lb">right</label></span>
+									</div>
+								</td>
+								<td>
+									<div class="casting_btn"><button class="btn btn_s btn_cp">casting</button></div>
+								</td>
+							</tr>
+							<tr>
+								<td class="tal">
+									<div class="character_name">
+										<span class="cimg"><img src="/images/del/u.png" alt="" /></span>
+										<strong class="cname">David</strong>
+									</div>
+								</td>
+								<td>
+									<div class="pts">
+										<span class="dfrdo_bx"><input type="radio" id="pts2_l" name="pts2" value="" class="dfrdo" checked="checked"><label for="pts2_l" class="dfrdo_lb">left</label></span>
+										<span class="dfrdo_bx"><input type="radio" id="pts2_r" name="pts2" value="" class="dfrdo"><label for="pts2_r" class="dfrdo_lb">right</label></span>
+									</div>
+								</td>
+								<td>
+									<div class="casting_btn"><button class="btn btn_s btn_cp">casting</button></div>
+								</td>
+							</tr>
+							<tr>
+								<td class="tal">
+									<div class="character_name">
+										<span class="cimg"><img src="/images/del/u.png" alt="" /></span>
+										<strong class="cname">David</strong>
+									</div>
+								</td>
+								<td>
+									<div class="pts">
+										<span class="dfrdo_bx"><input type="radio" id="pts3_l" name="pts3" value="" class="dfrdo" checked="checked"><label for="pts3_l" class="dfrdo_lb">left</label></span>
+										<span class="dfrdo_bx"><input type="radio" id="pts3_r" name="pts3" value="" class="dfrdo"><label for="pts3_r" class="dfrdo_lb">right</label></span>
+									</div>
+								</td>
+								<td>
+									<div class="casting_btn"><button class="btn btn_s btn_gr">off</button></div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

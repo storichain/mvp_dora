@@ -1,0 +1,135 @@
+<html lang="ko" class=" ">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="description" content="Storichain"/>
+<link rel="apple-touch-icon-precomposed" href="/images/sc120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/images/sc180.png" />
+<title>Storichain</title>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/css/scn.css">
+<link rel="stylesheet" type="text/css" href="/css/animate.min.css">
+<script src="/js/lib/jquery.js"></script>
+</head>
+<body class="tbd">
+<div class="header shd">
+	<div class="mhd_lg">
+		<div class="hd_wrap">
+			<h1 class="ptit"><a href="#">Making Reaction Button</a></h1>
+			<a href="#" class="btn btn_back_w"><span class="blind">뒤로가기</span></a>
+		</div>
+	</div>
+	<div class="h_tab">
+		<div class="tab_wrap">
+			<ul class="htab htab2">
+				<li class="selected"><a href="#">Free Reaction Button</a></li>
+				<li><a href="#">Paid Reaction Button</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="content">
+		<div class="ct_wrap">
+			<form action="">
+				<p class="reaction_desc">* Reaction Button appears at the end of a scene.<br />You may add Reaction Button 0-5 in one scene</p>
+				<h2 class="reaction_tit">What Scene to Add this Reaction Button? :</h2>
+				<div class="reaction_select">
+					<div class="reaction_selected">
+						<span class="scene_num">#23</span>
+						<span class="scene_txt">Warrios takes the sword andWarrios takes the sword andWarrios takes the sword and</span>
+					</div>
+					<div class="reaction_open_list">
+						<ul>
+							<li>
+								<span class="scene_num">#1</span>
+								<span class="scene_txt">Warrios takes the sword andWarrios takes the sword andWarrios takes the sword and</span>
+							</li>
+							<li>
+								<span class="scene_num">#2</span>
+								<span class="scene_txt">Warrios takes the sword andWarrios takes the sword andWarrios takes the sword and</span>
+							</li>
+							<li>
+								<span class="scene_num">#3</span>
+								<span class="scene_txt">Warrios takes the sword andWarrios takes the sword andWarrios takes the sword and</span>
+							</li>
+							<li>
+								<span class="scene_num">#4</span>
+								<span class="scene_txt">Warrios takes the sword andWarrios takes the sword andWarrios takes the sword and</span>
+							</li>
+							<li>
+								<span class="scene_num">#5</span>
+								<span class="scene_txt">Warrios takes the sword andWarrios takes the sword andWarrios takes the sword and</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<ul class="rm_ul">
+					<li class="rm_li">
+						<div class="reaction_kinda">Kinda<br />More</div>
+						<div class="reaction_make">
+							<h3 class="form_tit">Name a Reaction Button that Inducing 'see more'</h3>
+							<div class="inp_box_bd"><input type="text" name="" id="kmore" class="inpt" /><label for="kmore" class="blind">Name a Reaction Button that Inducing 'see more'</label><button type="button" class="btn btn_s btn_cb">Make</button></div>
+							<ul class="rc_list">
+								<li class="rc_c1">그래서 다음은?<button type="button" class="btn btn_rc_del"><span class="blind">삭제</span></button></li>
+								<li class="rc_c2">와 진짜?<button type="button" class="btn btn_rc_del"><span class="blind">삭제</span></button></li>
+								<li class="rc_c3">와 진짜?<button type="button" class="btn btn_rc_del"><span class="blind">삭제</span></button></li>
+							</ul>
+						</div>
+					</li>
+					<li class="rm_li">
+						<div class="reaction_kinda">Kinda<br />Choice</div>
+						<div class="reaction_make">
+							<h3 class="form_tit">Name a Reaction Button that Inducing reader to make a choice</h3>
+							<div class="inp_box_bd"><input type="text" name="" id="kchoice" class="inpt" /><label for="kchoice" class="blind">Name a Reaction Button that Inducing reader to make a choice</label><button type="button" class="btn btn_s btn_cb">Make</button></div>
+							<ul class="rc_list">
+								<li class="rc_c1">그래서 다음은?<button type="button" class="btn btn_rc_del"><span class="blind">삭제</span></button></li>
+								<li class="rc_c2">와 진짜?<button type="button" class="btn btn_rc_del"><span class="blind">삭제</span></button></li>
+								<li class="rc_c3">와 진짜?<button type="button" class="btn btn_rc_del"><span class="blind">삭제</span></button></li>
+							</ul>
+							<h3 class="form_tit">Scene Number to Move</h3>
+							<div class="inp_box_bd w50"><input type="text" name="" id="kchoice" class="inpt" /><label for="kchoice" class="blind">Name a Reaction Button that Inducing reader to make a choice</label><button type="button" class="btn btn_add_sbtn">+선택형 버튼 더 추가</button></div>
+						</div>
+					</li>
+					<li class="rm_li">
+						<div class="reaction_kinda">Kinda<br />Link</div>
+						<div class="reaction_make">
+							<h3 class="form_tit">Naming a Reaction Button that Inducing reader to 'move to another Link'</h3>
+							<div class="inp_box_bd"><input type="text" name="" id="klink" class="inpt" /><label for="klink" class="blind">Naming a Reaction Button that Inducing reader to 'move to another Link'</label></div>
+							<h3 class="form_tit">UREL to Move Reader</h3>
+							<div class="inp_box_bd"><input type="text" name="" id="kurl" class="inpt" placeholder="Http://URL" /><label for="kurl" class="blind">UREL to Move Reader</label><button type="button" class="btn btn_s btn_cb">Make</button></div>
+							<ul class="rc_list">
+								<li class="rc_c1">이건 공유해야 해<button type="button" class="btn btn_rc_del"><span class="blind">삭제</span></button></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+
+				<div class="form_btn_c">
+					<button class="btn btn_s btn_cp">Add Reaction Button into Scene</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(function() {
+		$('.reaction_selected').on('click',function(){
+			if ($(this).hasClass('show_layer')){
+				$(this).removeClass('show_layer');
+				$('.reaction_open_list').hide();
+			} else {
+				$(this).addClass('show_layer');
+				$('.reaction_open_list').show();
+			}
+		});
+	});
+</script>
+</body>
+</html>
