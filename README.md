@@ -14,16 +14,19 @@ This mvp is for the Hackathon DoraHacks GHS / 2018
 본 최소작동 시연 소스는 <도라핵스 2018 Seoul> 을 위해 작성 되었습니다. 
 아래 주소를 통해 회원가입, 로그인 하여 창작과 스토리에 베스팅 하는 일부 기능을 시연 해 보실 수 있습니다. 
 
-You can experience for test here 
+1. Pitch Deck
+https://drive.google.com/open?id=1afwVwE-WhzfRn4zspioki55T6N6nmkWQ
+
+2. You can experience for test here 
 http://mvp.storichain.io/
 
-Hackathon Demo Run Video
+3. Hackathon Demo Run Video
 https://youtu.be/UfY1vwLad3k
 
-The project introduction landing page is
+4. The project introduction landing page is
 http://storichain.io
 
-PR Video
+5. PR Video
 https://youtu.be/nxZj150vJec
 
 
