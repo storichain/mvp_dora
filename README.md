@@ -1,6 +1,10 @@
 # Storichain Hackathon Work
-# Concept: Story Industry Protocol & dApps for Story Creation & IP Trade
+# Story Industry Protocol & dApps for Story Creation & IP Trade
 스토리체인 : 이야기 산업을 위한 스토리 창작 및 신뢰 거래계약 프로토콜 및 dApp
+
+"이야기는 유통의 가치 사슬 마다 드라마틱한게 가치가 뛰는 지적재산권, 
+미들맨이 독식하던 초과 수익의 분배가 이제 시작 됩니다."
+
 # mvp_dora 안내 사항
 
 The storichain.io is story creation & trade protocol project. 
