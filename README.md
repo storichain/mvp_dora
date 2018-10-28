@@ -14,13 +14,13 @@ This mvp is for the Hackathon DoraHacks GHS / 2018
 본 최소작동 시연 소스는 <도라핵스 2018 Seoul> 을 위해 작성 되었습니다. 
 아래 주소를 통해 회원가입, 로그인 하여 창작과 스토리에 베스팅 하는 일부 기능을 시연 해 보실 수 있습니다. 
 
-1. Pitch Deck
+1. Pitch Deck 토큰 이코노미 중심 발표자료 입니다. 
 https://drive.google.com/open?id=1afwVwE-WhzfRn4zspioki55T6N6nmkWQ
 
-2. You can experience for test here 
+2. You can Experience MVP here. 아래 링크에서 최소 시연 프로덕트를 경험하세요. 
 http://mvp.storichain.io/
 
-3. Hackathon Demo Run Video
+3. Hackathon Demo Video 데모를 시연한 동영상 입니다. 
 https://youtu.be/UfY1vwLad3k
 
 
@@ -80,8 +80,10 @@ https://youtu.be/UfY1vwLad3k
 
 각 3자의 노력과 보상을 성장지표 기반으로 기여도를 산출 해 내는 것이 핵심 로직
 
+# 토큰 메카니즘 INPUTS 엑셀 
+https://drive.google.com/open?id=1OPcaFYbx60oawICAicJKAMpRjEjVDiOJ
     
-# 동영상 소개 
+# Promotion Video 프로젝트 전반 동영상 소개 
 https://youtu.be/nxZj150vJec
 
 
